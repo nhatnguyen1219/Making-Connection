@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.user-info-container{
+padding: 20px;
+
+}
+.usercard{
+    border: 2px solid grey;
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+ 
+}
+
+
+
+
+.background-top{
+    background-color: aqua;
+    width: 400px;
+    height: 20%;
+    
+    position: absolute;
+
+}
+
+.user-info{
+
+    position: absolute;
+}
+
+
+/* align items is vertical */
+/* justify-content is horizontal */
+
+
+.nav-box{
+    background-color:rgb(51, 55, 59);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 0px;
+}
+.nav-box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+.big-box{
+    margin: 0 auto;
+}
+
+.notHomePage{
+    display: flex;
+    justify-content: center;
+    padding: 20px 145px;
+    
+
+}
+
+.nav-links{
+    display:flex;
+    gap: 20px;
+    
+
+}
+
+.nav-links, li{
+    list-style-type: none;
+    
+
+}
+.nav-links, li, a{
+    color: lightgreen;
+    text-decoration: none;
+
+}
+
+.nav-title{
+    color: white;
+
+}
+
+
+.active{
+
+    color: white;
+}
+
+.btn{
+    background-color: steelblue;
+    color: white;
+    border: 0, grey;
+    padding: 5px;
+
+}
+
+.education-info{
+    border: 2px solid grey;
+    width: 400px;
+    height: 150px;
+    
+}
+
+.education-title{
+    background-color: rgb(51, 55, 59);
+    color: white;
+    
+
+
+}
+
+
+
+
+.connection-request{
+    /* margin: 20px 0px; */
+    width: 250px;
+    height: 200px;
+    border: 2px solid grey;
+
+
+}
+.request-title{
+    background-color: rgb(51, 55, 59);
+    color: white
+}
+.yourConnect-title{
+
+    background-color: rgb(51, 55, 59);
+    color: white;
+}
+.your-connection{
+    width: 250px;
+    height: 200px;
+    border: 2px solid grey;
+    margin-top: 20px;;
+
+
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    
+}
+#request-1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+#request-2{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.user-circle{
+    display: flex;
+    align-items: center;
+}
+
+
+#two-sign{
+    border: 2px solid lightgrey; 
+    border-radius: 50%;
+    background-color: lightgrey;
+    color: black;
+    
+    
+    padding: 5px 10px;
+    margin: 5px;
+
+
+}
+#fiveh-plus-sign{
+    border: 2px solid lightgrey; 
+    border-radius: 50%;
+    background-color: lightgrey;
+    color: black;
+    
+    
+    padding: 5px 10px;
+    margin: 5px;
+
+
+}
+
+
